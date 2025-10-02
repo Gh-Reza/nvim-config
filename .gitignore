@@ -6,3 +6,27 @@ debug
 foo.*
 *.log
 data
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Plugin files (if using package managers)
+pack/packer/start/*
+pack/packer/opt/*
+pack/plugins/start/*
+pack/plugins/opt/*
+
+# LSP servers and language specific files
+lsp-servers/
+node_modules/
+
+# Session files
+Session.vim
+
+# Netrw bookmarks
+.netrwhist
+
+# Undo files
+undo/

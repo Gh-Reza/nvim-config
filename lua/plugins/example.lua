@@ -10,15 +10,6 @@ if true then return {} end
 -- * override the configuration of LazyVim plugins
 return {
 
-  {
-    "tanvirtin/monokai.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.g.monokai_style = "pro" -- options: "default", "pro", "machine", "ristretto"
-      vim.cmd("colorscheme monokai-pro")
-    end,
-  },
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
 
